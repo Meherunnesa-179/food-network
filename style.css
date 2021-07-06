@@ -6,8 +6,9 @@ body{
 .sec1-header{ 
     display:flex;
     margin:5%;
-    padding-right:10%;
     box-sizing: border-box;
+    padding: 5%;
+    margin-bottom: 0;
    
     
     }
@@ -28,4 +29,17 @@ body{
     background-image: linear-gradient(gold,orange,red);
     padding:10px 40px;
     border-radius: 20px;
+}
+.section-2{ 
+    background-image: url('images/background.jpg');
+    background-repeat: cover;
+    width:100%;
+    padding-bottom: 0;
+}
+.sec2-div2{ 
+    padding-top: 10%;
+}
+.hash-tag{
+    color:red;
+    font-family: italic;
 }
