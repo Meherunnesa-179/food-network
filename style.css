@@ -1,0 +1,31 @@
+body{  
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+
+     }
+.sec1-header{ 
+    display:flex;
+    margin:5%;
+    padding-right:10%;
+    box-sizing: border-box;
+   
+    
+    }
+    h1{ 
+        font-size: 50px;
+        font-weight: 900;
+        text-align: justify;
+    }
+    span{
+        color: red;
+    }
+.sec1-div1{ 
+    width:50%;
+}
+.link-button{ 
+    text-decoration: none;
+    font-weight: 900;
+    background-image: linear-gradient(gold,orange,red);
+    padding:10px 40px;
+    border-radius: 20px;
+}
