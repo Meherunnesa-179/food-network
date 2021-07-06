@@ -1,5 +1,5 @@
 body{  
-    margin:0;
+    margin:0 5% ;
     font-family: 'Poppins', sans-serif;
     background-color:grey ;
 
@@ -21,7 +21,7 @@ body{
         text-align: justify;
     }
     span{
-        color: red;
+        color:orange;
     }
 .sec1-div1{ 
     width:50%;
@@ -54,8 +54,8 @@ body{
 .section-three{
     box-sizing: border-box;
     margin-bottom: 0;
-     margin:5% ;
-     padding:5%;
+     margin:1% ;
+     padding:4%;
 
 }
 .my-recipe{ 
@@ -81,7 +81,7 @@ h2,p{
     border-radius: 15px;
     text-align: justify;
     box-sizing: content-box;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 10px rgb(15, 14, 14);
     width:30%;
     margin:3%;
 }
@@ -93,4 +93,25 @@ h2,p{
     box-shadow: 7px 7px   blue;
     color:white;
     margin-left: 50px;
+}
+.fourth-section{
+    display: flex;
+    width:100%;
+    border:5px 5px;
+    box-shadow:10px 10px 10px black ;
+    margin-right:10%;
+    background-color: white;
+    border-radius: 10PX;    
+}
+.media{
+padding-left: 15%;
+text-align: center;
+    
+}
+.footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-bottom: 10px;
+    
 }
