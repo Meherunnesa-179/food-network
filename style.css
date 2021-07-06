@@ -1,19 +1,22 @@
 body{  
     margin:0;
     font-family: 'Poppins', sans-serif;
+    background-color:grey ;
 
      }
 .sec1-header{ 
     display:flex;
-    margin:5%;
+    margin:5% ;
     box-sizing: border-box;
     padding: 5%;
     margin-bottom: 0;
+    width:100%;
+    
    
     
     }
-    h1{ 
-        font-size: 50px;
+    .header-class{ 
+        font-size: 40px;
         font-weight: 900;
         text-align: justify;
     }
@@ -22,6 +25,7 @@ body{
     }
 .sec1-div1{ 
     width:50%;
+    
 }
 .link-button{ 
     text-decoration: none;
@@ -29,7 +33,10 @@ body{
     background-image: linear-gradient(gold,orange,red);
     padding:10px 40px;
     border-radius: 20px;
+} .div-clear{
+     clear:both;
 }
+
 .section-2{ 
     background-image: url('images/background.jpg');
     background-repeat: cover;
@@ -38,8 +45,52 @@ body{
 }
 .sec2-div2{ 
     padding-top: 10%;
+    margin-top: 0;
 }
 .hash-tag{
     color:red;
     font-family: italic;
+}
+.section-three{
+    box-sizing: border-box;
+    margin-bottom: 0;
+     margin:5% ;
+     padding:5%;
+
+}
+.my-recipe{ 
+    text-align: center;
+}
+
+.flexible-container{
+    display:flex;
+    
+    width:100%;
+}
+h2,p{
+    font-size: medium;
+}
+.recipe-img{
+    border-radius: 30px;
+    width:100%;
+}
+.recipe-div{
+    background-color:white;
+    padding: 3%;
+    
+    border-radius: 15px;
+    text-align: justify;
+    box-sizing: content-box;
+    box-shadow: 10px 10px 10px black;
+    width:30%;
+    margin:3%;
+}
+.order-button{
+     background-color: green;
+     padding:10px 20px;
+     text-decoration: none;
+    font-weight: 900;
+    box-shadow: 7px 7px   blue;
+    color:white;
+    margin-left: 50px;
 }
